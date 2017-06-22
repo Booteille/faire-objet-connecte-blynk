@@ -234,14 +234,22 @@ Dans un premier temps, vous poserez des questions sur ce qu'est un objet connect
 Une fois la notion de ce qu'est un objet connecté assimilée, vous inviterez les enfants à créer leur premier objet connecté.
 Les Witty Cloud posés devant chaque groupe (le cinquième vous étant attribué pour les démonstrations), ils devront créer, sur Blynk, l'application permettant de les contrôler.
 Pour commencer, indiquez-leur comment contrôler la LED rouge intégrée (Broche D8) avec un [Slider](https://booteille.github.io/blynk-docs-fr/#widgets-controleurs-glissiere-slider).
+
 ![Slider + Witty Cloud](http://dcliclab.fr/wp-content/uploads/2017/06/one_slider-1.png)
+
 Ensuite, faites-les créer deux autres Sliders pour les LEDs vertes (D7) et bleues (D6).
+
 ![3 Sliders](http://dcliclab.fr/wp-content/uploads/2017/06/full_slider-1.png)
+
 Une fois que les enfants se sont assez amusés avec les trois Sliders, indiquez-leur qu'il existe un moyen plus simple de contrôler une LED et faites-les supprimer et remplacer leurs Sliders par le [ZeRGBa](https://booteille.github.io/blynk-docs-fr/#widgets-controleurs-zergba) où vous leur ferez configurer le rouge sur D8, le vert sur D7, le bleu sur D6.
+
 ![Zèbre](http://dcliclab.fr/wp-content/uploads/2017/06/full_slider-1.png)
+
 Souvent, les enfants ne se rendent pas compte qu'il faut, par défaut, relâcher le doigt pour que la couleur se mette à jour. Vous pouvez donc leur faire changer la valeur de [`SEND ON RELEASE`](https://booteille.github.io/blynk-docs-fr/#widgets-parametres-communs-des-widgets-envoyer-au-relachement-send-on-release) de `OFF` à `ON`. Assurez-vous que la valeur de `WRITE INTERVAL` soit sur `100 ms` pour que la couleur change le plus rapidement possible.
 Une fois le zèbre ajouté, indiquez-leur qu'il est aussi possible de récupérer des informations à partir d'un objet connecté et faites-leur ajouter un [Graph](https://booteille.github.io/blynk-docs-fr/#widgets-afficheurs-graphique-graph) ou un [Gauge](https://booteille.github.io/blynk-docs-fr/#widgets-afficheurs-jauge-gauge) que vous leur direz de connecter à la broche A0.
+
 ![Witty Cloud avec Sélecteur de Couleur et Graphique](http://dcliclab.fr/wp-content/uploads/2017/06/full_witty-1.png)
+
 
 ### Création d'un « Rocket League »
 
@@ -252,6 +260,8 @@ Une fois les Buttons correctement configurés, faites-les faire un premier essai
 
 Rapidement, ensuite, vous leur ferez ajouter un cinquième Button, relié à V4, avec un [Accelerometer](https://booteille.github.io/blynk-docs-fr/#widgets-capteurs-accelerometre-accelerometer) configuré sur V5.
 Lorsqu'ils appuieront sur le bouton, la valeur de l'accéléromètre sera lue et permettra de contrôler le Petit Bot en fonction de l'inclinaison de la tablette.
+
 ![Petit Bot avec Boutons et Accéléromètre](http://dcliclab.fr/wp-content/uploads/2017/06/final_kart-1.png)
+
 
 Mettez les quatre Bots dans une arène avec la balle au centre, faites deux équipes, indiquez à chacune dans quel camp marquer, puis profitez.
