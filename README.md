@@ -61,7 +61,7 @@ Ce permettra à tous de bien comprendre ce que vous dites et d'avoir ainsi un re
   // Set password to "" for open networks.
   char ssid[] = "YourNetworkName";
   char pass[] = "YourPassword";
-  char host[] = "addresse_ip_de_votre_raspberry_pi"
+  char host[] = "addresse_ip_de_votre_raspberry_pi";
 
   void setup() {
    // Debug console
