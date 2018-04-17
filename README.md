@@ -62,12 +62,13 @@ Ce permettra à tous de bien comprendre ce que vous dites et d'avoir ainsi un re
   char ssid[] = "YourNetworkName";
   char pass[] = "YourPassword";
   char host[] = "addresse_ip_de_votre_raspberry_pi";
+  int port = 8080;
 
   void setup() {
    // Debug console
    Serial.begin(9600);
 
-   Blynk.begin(auth, ssid, pass);
+   Blynk.begin(auth, ssid, pass, port);
   }
 
   void loop() {
